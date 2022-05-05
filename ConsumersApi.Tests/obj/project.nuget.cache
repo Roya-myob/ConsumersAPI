@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ymC8/guACx5Gzdjz55ko/IclE1wm4offjGs7oKfdJIzIROtKT2KzBo4Eab4m72Kl+MMjhSERmIteXwP3ZGEqhA==",
+  "dgSpecHash": "6yYv9jKdttu4kFBxBL+aPyJe/gBvCTnSzqTRKikQfVIIC3+Mz1UNVEJPtYnNYcA0j1Xp8cGrisF88FfBmPH7Kg==",
   "success": true,
-  "projectFilePath": "C:\\Roya\\Consumer\\ConsumersApi.Tests\\Consumers.Tests.csproj",
+  "projectFilePath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\Consumers.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Roya.Taleghani\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Roya.Taleghani\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Roya\\Consumer\\ConsumersApi.Tests\\Consumers.Tests.csproj": {}
+    "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\Consumers.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Roya\\Consumer\\ConsumersApi.Tests\\Consumers.Tests.csproj": {
+    "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\Consumers.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Roya\\Consumer\\ConsumersApi.Tests\\Consumers.Tests.csproj",
+        "projectUniqueName": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\Consumers.Tests.csproj",
         "projectName": "Consumers.Tests",
-        "projectPath": "C:\\Roya\\Consumer\\ConsumersApi.Tests\\Consumers.Tests.csproj",
+        "projectPath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\Consumers.Tests.csproj",
         "packagesPath": "C:\\Users\\Roya.Taleghani\\.nuget\\packages\\",
-        "outputPath": "C:\\Roya\\Consumer\\ConsumersApi.Tests\\obj\\",
+        "outputPath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roya.Taleghani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Roya\\Consumer\\ConsumersApi\\Consumers.API.csproj": {
-                "projectPath": "C:\\Roya\\Consumer\\ConsumersApi\\Consumers.API.csproj"
+              "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\Consumers.API.csproj": {
+                "projectPath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\Consumers.API.csproj"
               }
             }
           }
@@ -87,18 +87,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Roya\\Consumer\\ConsumersApi\\Consumers.API.csproj": {
+    "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\Consumers.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Roya\\Consumer\\ConsumersApi\\Consumers.API.csproj",
+        "projectUniqueName": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\Consumers.API.csproj",
         "projectName": "Consumers.API",
-        "projectPath": "C:\\Roya\\Consumer\\ConsumersApi\\Consumers.API.csproj",
+        "projectPath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\Consumers.API.csproj",
         "packagesPath": "C:\\Users\\Roya.Taleghani\\.nuget\\packages\\",
-        "outputPath": "C:\\Roya\\Consumer\\ConsumersApi\\obj\\",
+        "outputPath": "C:\\Roya\\Consumers\\ConsumersAPI\\ConsumersApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roya.Taleghani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,13 +8,13 @@ using Xunit;
 
 namespace Consumers.Tests
 {
-    public class Get_Successfull_
+    public class Get_Successfull_Response
     {
         [Fact]
         public async Task Get_Method_OnSuccess_ReturnStatusCode200()
         {
             // Arrange
-            var sut = new UsersController();
+            var sut = new MoviesController();
 
             //Act
             var result = (OkObjectResult)await sut.Get();
@@ -22,16 +22,12 @@ namespace Consumers.Tests
             //Assert
             result.StatusCode.Should().Be(200);
 
-
-            //IActionResult does not have the definition for Status Code 
-            //There is a more specific IActionResult that does have status code which is OKObjectResult
-            //Therefore we cast out result to OKObjectResult
         }
 
         [Fact]
         public async Task Get_Movie_Name_By_Id()
         {
-	        var sut = new UsersController();
+	        var sut = new MoviesController();
 
 	        var result = (OkObjectResult)await sut.Get();
 
@@ -43,7 +39,7 @@ namespace Consumers.Tests
         [Fact]
         public async Task Add_New_Movie_Returns_StatusCode201()
         {
-	        var sut = new UsersController();
+	        var sut = new MoviesController();
 
 
 	     //   var result = (CreatedResult)await sut.Post(new Movie{Name = "Batman"});

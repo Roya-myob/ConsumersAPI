@@ -4,10 +4,10 @@ namespace Consumers.API.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-    public class UsersController : Controller
+    public class MoviesController : Controller
     {
-		private static List<Movie>  movies = new List<Movie>()
-		 { new Movie("Batman", 1)};
+		private static List<Movies>  movies = new List<Movies>()
+		 { new Movies("Batman", 1)};
 
 
 		[HttpGet(Name = "users")]
@@ -18,7 +18,7 @@ namespace Consumers.API.Controllers
 		}
 
 		[HttpPost()]
-		public async Task<IActionResult> Post(Movie movie)
+		public async Task<IActionResult> Post(Movies movie)
 		{
 			movies.Add(movie);
 			return Created("user.com",movies);

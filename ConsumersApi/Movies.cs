@@ -1,11 +1,11 @@
 ﻿namespace Consumers.API
 {
-    public class Movie
+    public class Movies
     {
 	    public string Name { get; set; }
 	    public int Id { get; set; }
 
-		public Movie(string name, int id)
+		public Movies(string name, int id)
 	    {
 		    Name = name;
 		    Id = id;
