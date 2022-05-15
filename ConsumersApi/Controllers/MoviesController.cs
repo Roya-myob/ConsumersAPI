@@ -6,35 +6,53 @@ namespace Consumers.API.Controllers
 	[Route("[controller]")]
     public class MoviesController : Controller
     {
-		private static List<Movies>  movies = new List<Movies>()
-		 { new Movies("Batman", 1)};
+	    private readonly IMoviesService _moviesServices;  
 
+		public MoviesController(IMoviesService moviesService)
+	    {
+		    _moviesServices = moviesService;
+	    }
 
-		[HttpGet(Name = "users")]
-	    public async Task<IActionResult> Get()
+        public MoviesController()
+        {
+        }
+
+        private static List<Movies>  movies = new List<Movies>()
+		 { new Movies("Batman", 1,new Rating())};
+
+		
+
+		[HttpGet]
+	    public async Task<IActionResult> GetAllMovies()
 		{
+			//movies.Count == 0 ? "We have no movie in the list :(": 
 			return Ok(movies);
 
+
 		}
 
-		[HttpPost()]
+		[HttpGet("{id}")]
+		public async Task<IActionResult> GetMovieId(int id)
+		{
+			var movie = movies.Find(movie => movie.Id == id);
+			if (movie == null)
+			{
+				return NotFound("Id not found");
+			}
+			return StatusCode((200), movie);
+
+		}
+
+		[HttpPost]
 		public async Task<IActionResult> Post(Movies movie)
 		{
+			
 			movies.Add(movie);
-			return Created("user.com",movies);
+			return Created("movie.com",movies);
+			
 
 		}
 
-
-		[HttpGet("{id}" )]
-		public async Task<IActionResult> GetId(int id)
-		{
-			return StatusCode((200), movies.Find(movie => movie.Id == id));
-
-		}
-
-		
-		
 		[HttpDelete("{id}")]
 		public async Task<IActionResult> Delete(int id)
 		{

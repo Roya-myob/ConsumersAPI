@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ConsumersApi",
+    "\\ConsumersApi.Tests",
+    "\\ConsumersApi\\Controllers",
+    "\\ConsumersApi\\Model",
+    "\\ConsumersApi\\Services"
+  ],
+  "SelectedNode": "\\ConsumersApi\\Model\\Rating.cs",
+  "PreviewInSolutionExplorer": false
+}
